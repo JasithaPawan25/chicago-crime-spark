@@ -1,0 +1,14 @@
+# data files (never upload)
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Spark and Jupyter temporary folders
+spark_checkpoints/
+.ipynb_checkpoints/
+__pycache__/
+
+# Office temporary files
+~$*
